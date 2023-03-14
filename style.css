@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: auto;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(248, 226, 198);
+    height: 10em;
+    width: 100%;
+}
+
+.logo {
+    width: 20em;
+    display: flex;
+
+    padding-left: 5em;
+    padding-top: 2em;
+
+}
+
+.søgefelt {
+display: flex;
+justify-content:right;
+padding-right: 4em;
+
+}
+
+.søgebar {
+    display: flex;
+    padding: 6px;
+    float: right;
+    padding-right: 2em;
+    border: none;
+    align-content: center;
+}
+
+.søgeknap {
+    background-color: #b93e44;
+border: none;
+padding: 0.5em;
+
+}
+
+.søgeloop {
+max-width: 100%;
+}
+
+nav {
+background-color: #b93e44;
+    height: 4em;
+    width: 100%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    align-content: center;  
+   
+
+
+
+}
+
+h1 {
+
+    font-family: 'Ranchers', cursive;}
+
+    h2 {
+        font-family: 'Ranchers', cursive;
+font-size: 1.5em;
+    }
+
+    p {
+font-family: sans-serif;
+
+    }
+.menu {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+    align-content: center;
+    box-shadow: 0 10px 30px rgb(177, 172, 172);
+    padding-right: 4em;
+    box-sizing: border-box;
+    
+    
+}
+
+.menu-button {
+    display: none;
+}
+
+#menu-items {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+}
+
+
+
+#menu-items li:first-child {
+    border-left: 1px solid white;
+}
+
+#menu-items li {
+
+    border-right: 1px solid rgb(255, 255, 255);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2em;
+}
+
+.menu-item {
+    color: rgb(255, 255, 255);
+    font-family: 'Ranchers', cursive;
+    text-transform: uppercase;
+    display: block;
+    padding-top: 0.5em;
+    text-decoration: none;
+   
+}
+
+main {
+    background-color: rgb(249, 252, 250);
+    box-shadow: 0 10px 30px rgb(160, 156, 156);
+    display: flex;
+    width: 90%;
+    padding: 1em;
+   
+}
+
+.venstre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2em;
+
+}
+
+.højre {
+    display: flex;
+    flex-direction: column;
+justify-content: space-evenly;
+padding: 2em;
+}
+
+.arne {
+    width: 50em;
+    padding-top: 1em;
+    
+
+
+}
+footer{
+width: 100%;
+}
+h3 {
+    font-family: 'Ranchers', cursive;
+font-size: 1.5em;
+ 
+}
+.maxfooter {
+background-color: #fff2d8;
+color: #b93e44;
+display: flex;
+justify-content: space-around
+}
+section {
+display: flex;
+flex-direction: column;
+align-content: space-between;
+gap: 0.5em;
+padding: 2em;
+}
+
